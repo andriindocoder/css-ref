@@ -2,8 +2,16 @@
     display: grid;
     grid-gap: 20px;
     /*grid-template-columns: repeat(3, 1fr);*/
-    grid-template-columns: auto 1fr 2fr;
-    grid-template-rows: 1fr 2fr;
+    /*grid-template-columns: auto 1fr 2fr;*/
+    /*grid-template-columns: repeat(auto-fill, 300px);*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    /*justify-items: stretch;*/
+    /*justify-items: start;*/
+    /*justify-items: end;*/
+    /*align-items: stretch;*/
+    /*align-items: start;*/
+    /*align-items: end;*/
 }
 
 .zone {
