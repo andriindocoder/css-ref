@@ -23,12 +23,17 @@ h2 {
 .flex-container {
     display: flex;
     border: 5px solid black;
-    flex-flow: row wrap;
+    flex-grow: 1;
 }
 
 .flex-element {
     padding: 10px;
     background-color: #E53935;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 600px;
+
+    flex: 0 0 600px;
 }
 
 .flex-element:nth-child(1) {
@@ -39,6 +44,5 @@ h2 {
 }
 
 .flex-element:nth-child(3) {
-    order: -1;
     background-color: #3F51B5;
 }
