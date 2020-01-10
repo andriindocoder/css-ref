@@ -21,7 +21,9 @@ h2 {
 }
 /** Flex Container here **/
 .flex-container {
-    
+    display: flex;
+    /*display: inline-flex;*/
+    border: 5px solid black;
 }
 
 .flex-element {
