@@ -5,6 +5,7 @@ body {
     background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .container {
     background-color: white;
     height: calc( 100vh - 20px );
@@ -19,30 +20,42 @@ h1, h2 {
 h2 {
     color:white;
 }
-/** Flex Container here **/
+
 .flex-container {
+    /* display:inline-flex; */
     display: flex;
-    border: 5px solid black;
-    flex-grow: 1;
+    border: 3px solid black;
+    height: 600px;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+
+    align-items: stretch; /* default */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: baseline;
+    align-items: center;
+
+    
 }
 
 .flex-element {
     padding: 10px;
     background-color: #E53935;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 600px;
-
-    flex: 0 0 600px;
+    /* Alignment **/ 
 }
-
 .flex-element:nth-child(1) {
+    align-self: flex-start;
 }
 
 .flex-element:nth-child(2) {
     background-color: #8E24AA;
+    align-self: center;
 }
 
 .flex-element:nth-child(3) {
     background-color: #3F51B5;
+    align-self: flex-end;
 }
