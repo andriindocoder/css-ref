@@ -23,10 +23,11 @@ h2 {
 .flex-container {
     display: flex;
     border: 5px solid black;
-    flex-direction: row;
-    flex-direction: row-reverse;
-    flex-direction: column;
-    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
+    flex-flow: row wrap;
 }
 
 .flex-element {
