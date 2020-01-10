@@ -8,24 +8,24 @@ h1 {
 
 .top-container {
 	background-color: #E4F9F5;
-	border: 10px solid black;
+	/*border: 10px solid black;
 	padding: 20px;
 	width: 200px;
-	height: 200px;
+	height: 200px;*/
 }
 
 .middle-container {
-	background-color: red;
+/*	background-color: red;
 	width: 200px;
 	height: 200px;
 	border: 20px solid black;
-	margin-left: 260px;
+	margin-left: 260px;*/
 }
 
 .bottom-container {
-	background-color: yellow;
+/*	background-color: yellow;
 	width: 200px;
 	height: 200px;
 	border: 10px solid black;
-	margin-left: 500px;
+	margin-left: 500px;*/
 }
